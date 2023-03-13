@@ -4,15 +4,15 @@ Project submission for the ELC Accessible Beauty Hackathon 2023.
 
 ## Project Team
 
-- Alexandru Diaconu
-- John Farese
-- Catalin Ionita
-- Bree Johnson
-- Rashidat Kassim
-- Paul Micali
-- Andrei Niculae
-- Stacy Tran
-- Cynthia Vargas
+- Alexandru Diaconu (Project Management)
+- John Farese (Front-End Development)
+- Catalin Ionita (Project Management)
+- Bree Johnson (Business Analysis)
+- Rashidat Kassim (QA)
+- Paul Micali (Team Lead)
+- Andrei Niculae (Back-End Development)
+- Stacy Tran (UI/UX)
+- Cynthia Vargas (UI/UX)
 
 ## Inspiration
 
