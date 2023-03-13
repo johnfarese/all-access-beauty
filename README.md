@@ -26,4 +26,4 @@ Project submission for the ELC Accessible Beauty Hackathon 2023.
 
 ## What we learned
 
-## What's next for Untitled
+## What's next for All Access Beauty
