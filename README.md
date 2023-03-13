@@ -1,5 +1,19 @@
 # All Access Beauty
 
+Project submission for the ELC Accessible Beauty Hackathon 2023.
+
+## Project Team
+
+- Alexandru Diaconu
+- John Farese
+- Catalin Ionita
+- Bree Johnson
+- Rashidat Kassim
+- Paul Micali
+- Andrei Niculae
+- Stacy Tran
+- Cynthia Vargas
+
 ## Inspiration
 
 ## What it does
