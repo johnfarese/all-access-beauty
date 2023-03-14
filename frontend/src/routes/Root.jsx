@@ -1,5 +1,5 @@
 import Header from './root/Header';
-import Hero from './root/Hero';
+import { Outlet } from 'react-router-dom';
 
 const Root = () => {
     return (
@@ -7,7 +7,7 @@ const Root = () => {
             <Header />
 
             <main className="lg:relative">
-                <Hero />
+                <Outlet />
             </main>
         </div>
     );
