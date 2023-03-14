@@ -16,7 +16,7 @@ const Header = () => {
                         </a>
                     </div>
                     <div className="-my-2 -mr-2 md:hidden">
-                        <Popover.Button className="inline-flex items-center justify-center rounded-md bg-secondary p-2 hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                        <Popover.Button className="inline-flex items-center justify-center rounded-md bg-secondary p-2 hover:bg-secondary focus:outline-none">
                             <span className="sr-only">Open menu</span>
                             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                         </Popover.Button>
@@ -52,7 +52,7 @@ const Header = () => {
                                     <span className="text-lg">ALL ACCESS BEAUTY</span>
                                 </div>
                                 <div className="-mr-2">
-                                    <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                                    <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary">
                                         <span className="sr-only">Close menu</span>
                                         <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                                     </Popover.Button>
@@ -63,7 +63,7 @@ const Header = () => {
                             <div>
                                 <a
                                     href="#"
-                                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-primary px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
+                                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-primary px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-primary"
                                 >
                                     EXPLORE
                                 </a>
