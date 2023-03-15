@@ -6,7 +6,8 @@ import {
     faHandsAslInterpreting,
     faRestroom,
     faParking,
-    faElevator
+    faElevator,
+    faBraille
 } from '@fortawesome/free-solid-svg-icons';
 
 const featuresMap = {
@@ -16,7 +17,8 @@ const featuresMap = {
     'Sign language': faHandsAslInterpreting,
     'Accessible restroom': faRestroom,
     'Accessible parking': faParking,
-    'Elevator access': faElevator
+    'Elevator access': faElevator,
+    'Braille': faBraille
 };
 
 const AccessibleFeatures = (props) => {
