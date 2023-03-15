@@ -1,17 +1,18 @@
 [
   {
     "store_id": 1,
-    "store_name": "Beauty Bliss",
-    "brand": "mac",
+    "store_name": "SoHo",
+    "brand": "MAC",
+    "google_link": "https://goo.gl/maps/nhaxm3XqPZBA85tRA",
     "address": {
       "street_name": "Broadway",
-      "street_number": "1000",
+      "street_number": "506",
       "city": "New York",
       "state": "NY",
-      "zip_code": "10001",
+      "zip_code": "10012",
       "country": "USA",
-      "latitude": 40.746507,
-      "longitude": -73.988957
+      "latitude": 40.722266,
+      "longitude": -73.999126
     },
     "accessibility_features": [
       {
@@ -61,23 +62,24 @@
   },
   {
     "store_id": 2,
-    "store_name": "Glamour Girl",
-    "brand": "origins",
+    "store_name": "Hudson Yards",
+    "brand": "Origins",
+    "google_link": "https://goo.gl/maps/25YWK3UDe4FR5W9LA",
     "address": {
-      "street_name": "5th Ave",
-      "street_number": "600",
+      "street_name": "Hudson Yards",
+      "street_number": "20",
       "city": "New York",
       "state": "NY",
       "zip_code": "10001",
       "country": "USA",
-      "latitude": 40.760067,
-      "longitude": -73.976174
+      "latitude": 40.753819,
+      "longitude": -74.000444
     },
     "accessibility_features": [
       {
-        "feature_name": "Accessible parking",
-        "disability_type_name": "Motor impairment",
-        "disability_type_description": "Impairment of motor functions, such as movement or coordination"
+        "feature_name": "Braille",
+        "disability_type_name": "Hearing impairment",
+        "disability_type_description": "Impairment of the hearing ability"
       },
       {
         "feature_name": "Sign language",
