@@ -10,7 +10,6 @@ const imageMap = {
 const StoreList = (props) => {
 
     const stores = props.stores;
-    console.log(stores);
 
     return (
         <ul
