@@ -1,4 +1,5 @@
 import { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 import { Popover, Transition } from '@headlessui/react';
 import {
     Bars3Icon,
@@ -11,9 +12,7 @@ const Header = () => {
             <div className="mx-auto max-w-7xl px-6">
                 <div className="flex items-center justify-between py-6 md:justify-start md:space-x-10">
                     <div className="flex justify-start lg:w-0 lg:flex-1">
-                        <a href="/">
-                            <span className="text-2xl text-white font-medium">ALL ACCESS BEAUTY</span>
-                        </a>
+                        <Link to="/" className="text-2xl text-white font-medium">ALL ACCESS BEAUTY</Link>
                     </div>
                     <div className="-my-2 -mr-2 md:hidden">
                         <Popover.Button className="inline-flex items-center justify-center rounded-md bg-secondary p-2 hover:bg-secondary focus:outline-none">
@@ -22,12 +21,12 @@ const Header = () => {
                         </Popover.Button>
                     </div>
                     <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-                        <a
-                            href="#"
+                        <Link
+                            to="/stores"
                             className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-secondary px-4 py-2 text-base font-medium shadow-sm hover:bg-secondary"
                         >
                             EXPLORE
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -61,12 +60,12 @@ const Header = () => {
                         </div>
                         <div className="space-y-6 py-6 px-5">
                             <div>
-                                <a
-                                    href="#"
+                                <Link
+                                    to="/stores"
                                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-primary px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-primary"
                                 >
                                     EXPLORE
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
