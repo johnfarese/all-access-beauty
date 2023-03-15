@@ -1,121 +1,123 @@
 [
   {
-    "store_id": 1, 
-    "store_name": "Beauty Bliss", 
+    "store_id": 1,
+    "store_name": "Beauty Bliss",
+    "brand": "mac",
     "address": {
-      "street_name": "Broadway", 
-      "street_number": "1000", 
-      "city": "New York", 
-      "state": "NY", 
-      "zip_code": "10001", 
-      "country": "USA", 
-      "latitude": 40.746507, 
+      "street_name": "Broadway",
+      "street_number": "1000",
+      "city": "New York",
+      "state": "NY",
+      "zip_code": "10001",
+      "country": "USA",
+      "latitude": 40.746507,
       "longitude": -73.988957
-    }, 
+    },
     "accessibility_features": [
       {
-        "feature_name": "Wheelchair accessible entrance", 
-        "disability_type_name": "General Accessibility", 
+        "feature_name": "Wheelchair accessible entrance",
+        "disability_type_name": "General Accessibility",
         "disability_type_description": "Generic Category"
-      }, 
+      },
       {
-        "feature_name": "Ramp access", 
-        "disability_type_name": "Motor impairment", 
+        "feature_name": "Ramp access",
+        "disability_type_name": "Motor impairment",
         "disability_type_description": "Impairment of motor functions, such as movement or coordination"
-      }, 
+      },
       {
-        "feature_name": "Elevator access", 
-        "disability_type_name": "Motor impairment", 
+        "feature_name": "Elevator access",
+        "disability_type_name": "Motor impairment",
         "disability_type_description": "Impairment of motor functions, such as movement or coordination"
-      }, 
+      },
       {
-        "feature_name": "Accessible parking", 
-        "disability_type_name": "Motor impairment", 
+        "feature_name": "Accessible parking",
+        "disability_type_name": "Motor impairment",
         "disability_type_description": "Impairment of motor functions, such as movement or coordination"
-      }, 
+      },
       {
-        "feature_name": "Accessible restroom", 
-        "disability_type_name": "Motor impairment", 
+        "feature_name": "Accessible restroom",
+        "disability_type_name": "Motor impairment",
         "disability_type_description": "Impairment of motor functions, such as movement or coordination"
       }
-    ], 
+    ],
     "employee_disabilities": [
       {
         "disability_description": "Stuttering"
-      }, 
+      },
       {
         "disability_description": "Astigmatism"
-      }, 
+      },
       {
         "disability_description": "Nearsightedness"
-      }, 
+      },
       {
         "disability_description": "Complete deafness"
-      }, 
+      },
       {
         "disability_description": "Dysgraphia"
-      }, 
+      },
       {
         "disability_description": "Farsightedness"
-      }, 
+      },
       {
         "disability_description": "Dyscalculia"
       }
     ]
-  }, 
+  },
   {
-    "store_id": 2, 
-    "store_name": "Glamour Girl", 
+    "store_id": 2,
+    "store_name": "Glamour Girl",
+    "brand": "origins",
     "address": {
-      "street_name": "5th Ave", 
-      "street_number": "600", 
-      "city": "New York", 
-      "state": "NY", 
-      "zip_code": "10001", 
-      "country": "USA", 
-      "latitude": 40.760067, 
+      "street_name": "5th Ave",
+      "street_number": "600",
+      "city": "New York",
+      "state": "NY",
+      "zip_code": "10001",
+      "country": "USA",
+      "latitude": 40.760067,
       "longitude": -73.976174
-    }, 
+    },
     "accessibility_features": [
       {
-        "feature_name": "Accessible parking", 
-        "disability_type_name": "Motor impairment", 
+        "feature_name": "Accessible parking",
+        "disability_type_name": "Motor impairment",
         "disability_type_description": "Impairment of motor functions, such as movement or coordination"
-      }, 
+      },
       {
-        "feature_name": "Large print materials", 
-        "disability_type_name": "Visual impairment", 
+        "feature_name": "Large print materials",
+        "disability_type_name": "Visual impairment",
         "disability_type_description": "Impairment of the eyesight"
-      }, 
+      },
       {
-        "feature_name": "TTY/TDD services", 
-        "disability_type_name": "Hearing impairment", 
+        "feature_name": "TTY/TDD services",
+        "disability_type_name": "Hearing impairment",
         "disability_type_description": "Impairment of the hearing ability"
-      }, 
+      },
       {
-        "feature_name": "Wide doors", 
-        "disability_type_name": "Motor impairment", 
+        "feature_name": "Wide doors",
+        "disability_type_name": "Motor impairment",
         "disability_type_description": "Impairment of motor functions, such as movement or coordination"
-      }, 
+      },
       {
-        "feature_name": "Text-to-speech software", 
-        "disability_type_name": "Cognitive impairment", 
+        "feature_name": "Text-to-speech software",
+        "disability_type_name": "Cognitive impairment",
         "disability_type_description": "Impairment of cognitive functions, such as memory or perception"
       }
-    ], 
+    ],
     "employee_disabilities": [
       {
         "disability_description": "Lisping"
-      }, 
+      },
       {
         "disability_description": "Partial deafness"
-      }, 
+      },
       {
         "disability_description": "Hyperacusis"
-      }, 
+      },
       {
         "disability_description": "Multiple sclerosis"
-      }, 
+      },
       {
         "disability_description": "Color blindness"
       }
