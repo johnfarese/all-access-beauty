@@ -15,14 +15,9 @@
     },
     "accessibility_features": [
       {
-        "feature_name": "Wheelchair accessible entrance",
+        "feature_name": "Wheelchair accessible",
         "disability_type_name": "General Accessibility",
         "disability_type_description": "Generic Category"
-      },
-      {
-        "feature_name": "Ramp access",
-        "disability_type_name": "Motor impairment",
-        "disability_type_description": "Impairment of motor functions, such as movement or coordination"
       },
       {
         "feature_name": "Elevator access",
@@ -85,19 +80,14 @@
         "disability_type_description": "Impairment of motor functions, such as movement or coordination"
       },
       {
-        "feature_name": "Large print materials",
-        "disability_type_name": "Visual impairment",
-        "disability_type_description": "Impairment of the eyesight"
-      },
-      {
-        "feature_name": "TTY/TDD services",
+        "feature_name": "Sign language",
         "disability_type_name": "Hearing impairment",
         "disability_type_description": "Impairment of the hearing ability"
       },
       {
-        "feature_name": "Wide doors",
-        "disability_type_name": "Motor impairment",
-        "disability_type_description": "Impairment of motor functions, such as movement or coordination"
+        "feature_name": "Assistive listening system",
+        "disability_type_name": "Hearing impairment",
+        "disability_type_description": "Impairment of the hearing ability"
       },
       {
         "feature_name": "Text-to-speech software",
