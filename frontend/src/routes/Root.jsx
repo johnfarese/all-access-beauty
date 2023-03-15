@@ -1,5 +1,11 @@
 import Header from './root/Header';
 import { Outlet } from 'react-router-dom';
+import { getStores } from './Stores';
+
+export const storeLoader = async () => {
+    const stores = await getStores();
+    return { stores };
+}
 
 const Root = () => {
     return (

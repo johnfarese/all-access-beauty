@@ -5,8 +5,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css';
-import Root from "./routes/Root";
+import Root, { storeLoader } from "./routes/Root";
 import Index from "./routes/Index";
+import Stores from "./routes/Stores";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
     element: <Root />,
     children: [
       { index: true, element: <Index /> },
+      { path: "stores", element: <Stores />, loader: storeLoader }
     ]
   },
 ]);
