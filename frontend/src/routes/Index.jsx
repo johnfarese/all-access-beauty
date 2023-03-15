@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import {
     MicrophoneIcon
 } from '@heroicons/react/24/solid';
@@ -49,12 +50,12 @@ const Index = () => {
                         </p>}
                         <div className="mt-4 sm:flex sm:justify-center lg:justify-start">
                             <div className="rounded-md shadow">
-                                <a
-                                    href="#"
+                                <Link
+                                    to="/stores"
                                     className="flex w-full items-center justify-center rounded-md border border-black bg-secondary px-8 py-2 text-base font-medium hover:bg-secondary md:py-2 md:px-10 md:text-lg"
                                 >
                                     EXPLORE
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
