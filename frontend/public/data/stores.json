@@ -14,6 +14,7 @@
       "latitude": 40.722266,
       "longitude": -73.999126
     },
+    "distance": 3.735,
     "accessibility_features": [
       {
         "feature_name": "Wheelchair accessible",
@@ -75,6 +76,7 @@
       "latitude": 40.753819,
       "longitude": -74.000444
     },
+    "distance": 3.241,
     "accessibility_features": [
       {
         "feature_name": "Braille",
@@ -112,6 +114,279 @@
       },
       {
         "disability_description": "Color blindness"
+      }
+    ]
+  },
+  {
+    "store_id": 3,
+    "store_name": "Aventura Mall",
+    "brand": "MAC",
+    "google_link": "https://goo.gl/maps/K1VUKg12VYkboQzVA",
+    "address": {
+      "street_name": "Biscayne Blvd Space #1463",
+      "street_number": "19501",
+      "city": "Aventura",
+      "state": "FL",
+      "zip_code": "33180",
+      "country": "USA",
+      "latitude": 25.957698,
+      "longitude": -80.142600
+    },
+    "distance": 1080,
+    "accessibility_features": [
+      {
+        "feature_name": "Elevator access",
+        "disability_type_name": "Motor impairment",
+        "disability_type_description": "Impairment of motor functions, such as movement or coordination"
+      },
+      {
+        "feature_name": "Accessible parking",
+        "disability_type_name": "Motor impairment",
+        "disability_type_description": "Impairment of motor functions, such as movement or coordination"
+      },
+      {
+        "feature_name": "Accessible restroom",
+        "disability_type_name": "Motor impairment",
+        "disability_type_description": "Impairment of motor functions, such as movement or coordination"
+      },
+      {
+        "feature_name": "Braille",
+        "disability_type_name": "Hearing impairment",
+        "disability_type_description": "Impairment of the hearing ability"
+      }
+    ]
+  },
+  {
+    "store_id": 4,
+    "store_name": "Los Cerritos Center",
+    "brand": "MAC",
+    "google_link": "https://goo.gl/maps/uYJwvEs6dBfFF1uo8",
+    "address": {
+      "street_name": "Los Cerritos Center Space #A-56",
+      "street_number": "239",
+      "city": "Cerritos",
+      "state": "CA",
+      "zip_code": "90703",
+      "country": "USA",
+      "latitude": 33.862568,
+      "longitude": -118.093771
+    },
+    "distance": 2452,
+    "accessibility_features": [
+      {
+        "feature_name": "Braille",
+        "disability_type_name": "Hearing impairment",
+        "disability_type_description": "Impairment of the hearing ability"
+      },
+      {
+        "feature_name": "Sign language",
+        "disability_type_name": "Hearing impairment",
+        "disability_type_description": "Impairment of the hearing ability"
+      },
+      {
+        "feature_name": "Assistive listening system",
+        "disability_type_name": "Hearing impairment",
+        "disability_type_description": "Impairment of the hearing ability"
+      },
+      {
+        "feature_name": "Accessible parking",
+        "disability_type_name": "Motor impairment",
+        "disability_type_description": "Impairment of motor functions, such as movement or coordination"
+      }
+    ]
+  },
+  {
+    "store_id": 5,
+    "store_name": "Harvard Square",
+    "brand": "Origins",
+    "google_link": "https://goo.gl/maps/HpPjdw1VnpCV9ABMA",
+    "address": {
+      "street_name": "Massachusetts Ave",
+      "street_number": "1414",
+      "city": "Cambridge",
+      "state": "MA",
+      "zip_code": "02138",
+      "country": "USA",
+      "latitude": 42.373913,
+      "longitude": -71.118992
+    },
+    "distance": 184.1,
+    "accessibility_features": [
+      {
+        "feature_name": "Braille",
+        "disability_type_name": "Hearing impairment",
+        "disability_type_description": "Impairment of the hearing ability"
+      },
+      {
+        "feature_name": "Sign language",
+        "disability_type_name": "Hearing impairment",
+        "disability_type_description": "Impairment of the hearing ability"
+      },
+      {
+        "feature_name": "Assistive listening system",
+        "disability_type_name": "Hearing impairment",
+        "disability_type_description": "Impairment of the hearing ability"
+      },
+      {
+        "feature_name": "Wheelchair accessible",
+        "disability_type_name": "General Accessibility",
+        "disability_type_description": "Generic Category"
+      }
+    ]
+  },
+  {
+    "store_id": 6,
+    "store_name": "University Village",
+    "brand": "Aveda",
+    "google_link": "https://goo.gl/maps/9JaE5nQyRKG2ezTN8",
+    "address": {
+      "street_name": "NE University Village St Space 127",
+      "street_number": "2622",
+      "city": "Seattle",
+      "state": "WA",
+      "zip_code": "98105",
+      "country": "USA",
+      "latitude": 47.663960,
+      "longitude": -122.298853
+    },
+    "distance": 2408,
+    "accessibility_features": [
+      {
+        "feature_name": "Braille",
+        "disability_type_name": "Hearing impairment",
+        "disability_type_description": "Impairment of the hearing ability"
+      },
+      {
+        "feature_name": "Assistive listening system",
+        "disability_type_name": "Hearing impairment",
+        "disability_type_description": "Impairment of the hearing ability"
+      },
+      {
+        "feature_name": "Text-to-speech software",
+        "disability_type_name": "Cognitive impairment",
+        "disability_type_description": "Impairment of cognitive functions, such as memory or perception"
+      },
+      {
+        "feature_name": "Elevator access",
+        "disability_type_name": "Motor impairment",
+        "disability_type_description": "Impairment of motor functions, such as movement or coordination"
+      }
+    ]
+  },
+  {
+    "store_id": 7,
+    "store_name": "Bellevue Square",
+    "brand": "Aveda",
+    "google_link": "https://goo.gl/maps/vSc8ygFq3RkBX5ZXA",
+    "address": {
+      "street_name": "Bellevue Square",
+      "street_number": "243",
+      "city": "Bellevue",
+      "state": "WA",
+      "zip_code": "98004",
+      "country": "USA",
+      "latitude": 47.6152665,
+      "longitude": -122.202592
+    },
+    "distance": 2404,
+    "accessibility_features": [
+      {
+        "feature_name": "Assistive listening system",
+        "disability_type_name": "Hearing impairment",
+        "disability_type_description": "Impairment of the hearing ability"
+      },
+      {
+        "feature_name": "Text-to-speech software",
+        "disability_type_name": "Cognitive impairment",
+        "disability_type_description": "Impairment of cognitive functions, such as memory or perception"
+      },
+      {
+        "feature_name": "Wheelchair accessible",
+        "disability_type_name": "General Accessibility",
+        "disability_type_description": "Generic Category"
+      },
+      {
+        "feature_name": "Elevator access",
+        "disability_type_name": "Motor impairment",
+        "disability_type_description": "Impairment of motor functions, such as movement or coordination"
+      }
+    ]
+  },
+  {
+    "store_id": 8,
+    "store_name": "Century City",
+    "brand": "Jo Malone",
+    "google_link": "https://goo.gl/maps/YUo3t3W15me4ncZy7",
+    "address": {
+      "street_name": "Santa Monica Blvd #1320",
+      "street_number": "10250",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip_code": "90067",
+      "country": "USA",
+      "latitude": 34.058212,
+      "longitude": -118.418191
+    },
+    "distance": 2463,
+    "accessibility_features": [
+      {
+        "feature_name": "Sign language",
+        "disability_type_name": "Hearing impairment",
+        "disability_type_description": "Impairment of the hearing ability"
+      },
+      {
+        "feature_name": "Assistive listening system",
+        "disability_type_name": "Hearing impairment",
+        "disability_type_description": "Impairment of the hearing ability"
+      },
+      {
+        "feature_name": "Text-to-speech software",
+        "disability_type_name": "Cognitive impairment",
+        "disability_type_description": "Impairment of cognitive functions, such as memory or perception"
+      },
+      {
+        "feature_name": "Wheelchair accessible",
+        "disability_type_name": "General Accessibility",
+        "disability_type_description": "Generic Category"
+      }
+    ]
+  },
+  {
+    "store_id": 9,
+    "store_name": "Aventura Mall",
+    "brand": "Jo Malone",
+    "google_link": "https://goo.gl/maps/ewr64MYLYmHdGw5t8",
+    "address": {
+      "street_name": "Biscayne Blvd #1161",
+      "street_number": "19575",
+      "city": "Aventura",
+      "state": "FL",
+      "zip_code": "33180",
+      "country": "USA",
+      "latitude": 25.9574909,
+      "longitude": -80.142781
+    },
+    "distance": 1080,
+    "accessibility_features": [
+      {
+        "feature_name": "Braille",
+        "disability_type_name": "Hearing impairment",
+        "disability_type_description": "Impairment of the hearing ability"
+      },
+      {
+        "feature_name": "Assistive listening system",
+        "disability_type_name": "Hearing impairment",
+        "disability_type_description": "Impairment of the hearing ability"
+      },
+      {
+        "feature_name": "Wheelchair accessible",
+        "disability_type_name": "General Accessibility",
+        "disability_type_description": "Generic Category"
+      },
+      {
+        "feature_name": "Accessible restroom",
+        "disability_type_name": "Motor impairment",
+        "disability_type_description": "Impairment of motor functions, such as movement or coordination"
       }
     ]
   }
