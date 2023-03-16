@@ -27,16 +27,13 @@ const StoreList = (props) => {
     const storesSorted = sortObject(stores, "distance");
 
     const checkVisibility = (store) => {
-        console.log(store);
         if (
             (filters.brand === "*" || filters.brand === store.brand)
             &&
             (filters.features === "*" || store.accessibility_features.some(e => e.feature_name === filters.features))
         ) {
-            console.log(true);
             return true;
         }
-        console.log(false);
         return false;
     };
 
