@@ -8,6 +8,9 @@ import './index.css';
 import Root, { storeLoader } from "./routes/Root";
 import Index from "./routes/Index";
 import Stores from "./routes/Stores";
+import { inject } from '@vercel/analytics';
+
+inject();
 
 const router = createBrowserRouter([
   {
