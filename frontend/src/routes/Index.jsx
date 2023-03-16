@@ -41,6 +41,7 @@ const Index = () => {
                             <button
                                 type="button"
                                 className="absolute inset-y-0 right-0 flex items-center pr-3"
+                                aria-label="Microphone"
                             >
                                 <MicrophoneIcon className="h-5 w-5 text-gray-500" />
                             </button>
