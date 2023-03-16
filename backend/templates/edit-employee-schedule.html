@@ -1,0 +1,53 @@
+{% extends 'layout.html' %}
+
+{% macro hour_options(selected) %}
+    {% for i in range(0, 24) %}
+        <option value="{{ '%02d' % i }}" {% if selected == '%02d' % i %}selected{% endif %}>{{ '%02d' % i }}</option>
+    {% endfor %}
+{% endmacro %}
+
+{% macro minute_options(selected) %}
+    <option value="00" {% if selected == '00' %}selected{% endif %}>00</option>
+    <option value="30" {% if selected == '30' %}selected{% endif %}>30</option>
+{% endmacro %}
+
+{% block title %}Edit {{ employee.employee_firstname }} {{ employee.employee_lastname }}'s Schedule{% endblock %}
+
+{% block content %}
+    <h1>Edit {{ employee.employee_firstname }} {{ employee.employee_lastname }}'s Schedule at {{ store.store_name }}:</h1>
+    <form method="POST" action="{{ url_for('edit_employee_schedule', store_id=store.store_id, employee_id=employee.employee_id) }}">
+        {% for item in schedule %}
+            <div>
+                <label for="{{ item.schedule_id }}-day_of_week">Day of Week:</label>
+                <select id="{{ item.schedule_id }}-day_of_week" name="{{ item.schedule_id }}-day_of_week">
+                    <option value="Monday" {% if item.day_of_week == "Monday" %}selected{% endif %}>Monday</option>
+                    <option value="Tuesday" {% if item.day_of_week == "Tuesday" %}selected{% endif %}>Tuesday</option>
+                    <option value="Wednesday" {% if item.day_of_week == "Wednesday" %}selected{% endif %}>Wednesday</option>
+                    <option value="Thursday" {% if item.day_of_week == "Thursday" %}selected{% endif %}>Thursday</option>
+                    <option value="Friday" {% if item.day_of_week == "Friday" %}selected{% endif %}>Friday</option>
+                    <option value="Saturday" {% if item.day_of_week == "Saturday" %}selected{% endif %}>Saturday</option>
+                    <option value="Sunday" {% if item.day_of_week == "Sunday" %}selected{% endif %}>Sunday</option>
+                </select>
+                <label for="{{ item.schedule_id }}-start_time">Start Time:</label>
+				<select name="{{ item.schedule_id }}-start_hour">
+					{{ hour_options(item.start_time.split(':')[0]) }}
+				</select>
+				:
+				<select name="{{ item.schedule_id }}-start_min">
+					{{ minute_options(item.start_time[-2:]) }}
+				</select>
+				-
+				<label for="{{ item.schedule_id }}-end_time">End Time:</label>
+				<select name="{{ item.schedule_id }}-end_hour">
+					{{ hour_options(item.end_time[:2]) }}
+				</select>
+				:
+				<select name="{{ item.schedule_id }}-end_min">
+					{{ minute_options(item.end_time[-2:]) }}
+				</select>
+            </div>
+        {% endfor %}
+        <input type="submit" value="Save">
+    </form>
+    <a href="{{ url_for('edit_employee_schedule', store_id=store.store_id, employee_id=employee.employee_id) }}">Cancel</a>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+{% block title %}Edit Store{% endblock %}
+
+{% block content %}
+    <h1>Edit Store</h1>
+    <form method="POST" action="{{ url_for('edit_store', stpre=store, store_id=store_id) }}">
+		<label for="store_name">Store Name:</label>
+		<input type="text" id="store_name" name="store_name" value="{{ store.store_name }}"><br>
+		
+		<label for="street_number">Street Number:</label>
+		<input type="text" id="street_number" name="street_number" value="{{ store.street_number }}"><br>
+		
+		<label for="street_name">Street Name:</label>
+		<input type="text" id="street_name" name="street_name" value="{{ store.street_name }}"><br>
+		
+		<label for="city">City:</label>
+		<input type="text" id="city" name="city" value="{{ store.city }}"><br>
+		
+		<label for="state">State:</label>
+		<input type="text" id="state" name="state" value="{{ store.state }}"><br>
+		
+		<label for="zip">Zip:</label>
+		<input type="text" id="zip" name="zip_code" value="{{ store.zip_code }}"><br>
+		
+		<label for="country">Country:</label>
+		<input type="text" id="country" name="country" value="{{ store.country }}"><br>
+		
+        <input type="submit" value="Save">
+    </form>
+{% endblock %}
