@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block title %}Accessibility Features - {{ store_name }} {% endblock %}
+
+{% block content %}
+    <h1>Accessibility Features for store {{ store_name }}:</h1>
+    <ul>
+        {% for feature in store_features %}
+            <li>{{ feature.feature_name }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('edit_store_features', store_id=store_id) }}">Edit Store Features</a>
+{% endblock %}

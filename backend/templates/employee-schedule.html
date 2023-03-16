@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block title %}{{ employee.employee_firstname }} {{ employee.employee_lastname }}'s Schedule{% endblock %}
+
+{% block content %}
+    <h1>{{ employee.employee_firstname }} {{ employee.employee_lastname }}'s Schedule at {{ store.store_name }}:</h1>
+    <ul>
+        {% for item in schedule %}
+            <li>{{ item.day_of_week }}: {{ item.start_time.strftime('%I:%M %p') }} - {{ item.end_time.strftime('%I:%M %p') }}</li>
+        {% endfor %}
+    </ul>
+	<a href="{{ url_for('edit_employee_schedule', store_id=store.store_id, employee_id=employee.employee_id) }}">Edit Schedule</a>
+    <a href="{{ url_for('view_store_employees', store_id=store.store_id, employee_id=employee.employee_id) }}">Back to Employee</a>
+{% endblock %}

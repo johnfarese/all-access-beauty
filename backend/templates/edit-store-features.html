@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+
+{% block title %}Edit Store Features{% endblock %}
+
+{% block content %}
+<h1>Edit Store Features</h1>
+<h2>{{ store.store_name }}</h2>
+
+<form method="POST" action="{{ url_for('edit_store_features', store_id=store.store_id) }}">
+  {% for feature in all_features %}
+    <input type="checkbox" name="feature" value="{{ feature.feature_id }}" 
+       {% if feature.feature_id in features|map(attribute='feature_id') %}checked{% endif %}>
+
+    {{ feature.feature_name }} ({{ feature.addressed_disability }})
+    <br>
+  {% endfor %}
+
+  <input type="submit" value="Save">
+</form>
+
+<a href="{{ url_for('view_accessibility_features', store_id=store.store_id) }}">Cancel</a>
+
+{% endblock %}
