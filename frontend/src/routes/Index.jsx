@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import {
     MicrophoneIcon
 } from '@heroicons/react/24/solid';
-import world from '../img/world.png';
-import salon from '../img/salon.png';
+import world from '../img/world.webp';
+import salon from '../img/salon.webp';
 
 const Index = () => {
 
