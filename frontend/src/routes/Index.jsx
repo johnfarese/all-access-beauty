@@ -34,13 +34,11 @@ const Index = () => {
                                 className="block w-full rounded-md border-0 p-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6"
                                 placeholder="ZIP Code"
                                 aria-invalid={zipError ? 'true' : 'false'}
-                                aria-description="Input a ZIP code to find nearby stores (future state)"
                             />
                             <button
                                 type="button"
                                 className="absolute inset-y-0 right-0 flex items-center pr-3"
-                                aria-label="Microphone"
-                                aria-description="Click here to enable voice controls (future state)"
+                                aria-label="Voice controls"
                             >
                                 <MicrophoneIcon className="h-5 w-5 text-gray-500" />
                             </button>
