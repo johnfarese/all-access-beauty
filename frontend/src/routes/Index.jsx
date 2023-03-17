@@ -34,6 +34,7 @@ const Index = () => {
                                 className="block w-full rounded-md border-0 p-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6"
                                 placeholder="ZIP Code"
                                 aria-invalid={zipError ? 'true' : 'false'}
+                                aria-label="ZIP Code"
                             />
                             <button
                                 type="button"
