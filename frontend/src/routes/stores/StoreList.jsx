@@ -39,7 +39,9 @@ const StoreList = (props) => {
 
     return (
         <>
-            <Filters setFilters={setFilters} className="mt-10" />
+            <div className="mt-4">
+                <Filters setFilters={setFilters} className="mt-10" />
+            </div>
             <ul
                 role="list"
                 className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
