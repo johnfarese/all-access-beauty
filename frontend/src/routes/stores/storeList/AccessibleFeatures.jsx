@@ -26,7 +26,7 @@ const AccessibleFeatures = (props) => {
     const features = props.features;
 
     return (
-        <ul role="list" className="mt-6 flex justify-center gap-x-6">
+        <ul role="list" className="mt-6 flex justify-center gap-x-6" aria-description="List of accessibility features for this store">
             {features.map((feature) => (
                 <li key={feature.feature_name}>
                     <div className="group relative flex justify-center">
