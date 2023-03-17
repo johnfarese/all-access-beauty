@@ -24,9 +24,7 @@ const Index = () => {
                             <span className="block xl:inline">Accessible Globally</span>
                         </h1>
                         <p className="mx-auto mt-6 max-w-md text-lg font-light sm:text-xl md:mt-6 md:max-w-3xl">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua.
+                            Empowering Inclusivity, Celebrating Diversity
                         </p>
                         <div className="relative mt-10 rounded-md shadow-sm">
                             <input
