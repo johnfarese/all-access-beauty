@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <h1>Edit Employee Information</h1>
+  <form method="POST">
+    <label for="employee_firstname">First Name:</label>
+    <input type="text" name="employee_firstname" id="employee_firstname" value="{{ employee.employee_firstname }}" required>
+
+    <label for="employee_lastname">Last Name:</label>
+    <input type="text" name="employee_lastname" id="employee_lastname" value="{{ employee.employee_lastname }}" required>
+
+    <label for="employee_disability">Disability:</label>
+    <select name="employee_disability" id="employee_disability">
+      {% for disability in disabilities %}
+        {% if disability.disability_type_id == employee.employee_disability %}
+          <option value="{{ disability.disability_type_id }}" selected>{{ disability.disability_type_name }}</option>
+        {% else %}
+          <option value="{{ disability.disability_type_id }}">{{ disability.disability_type_name }}</option>
+        {% endif %}
+      {% endfor %}
+    </select>
+
+    <label for="employee_disability_skill">Disability Skill:</label>
+    <input type="text" name="employee_disability_skill" id="employee_disability_skill" value="{{ employee.employee_disability_skill }}">
+
+    <button type="submit">Save Changes</button>
+  </form>
+{% endblock %}

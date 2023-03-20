@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+
+{% block title %}Stores{% endblock %}
+
+{% block content %}
+       <h1>Stores</h1>
+    <table>
+        <tr>
+            <th>Store Name</th>
+            <th>Street Number</th>
+            <th>Street Name</th>
+			<th>City</th>
+			<th>State</th>
+			<th>Zip</th>
+			<th>Country</th>
+        </tr>
+        {% for store in stores %}
+        <tr>
+            <td>{{ store[1] }}</td>
+            <td>{{ store[2] }}</td>
+            <td>{{ store[3] }}</td>
+            <td>{{ store[4] }}</td>
+            <td>{{ store[5] }}</td>
+            <td>{{ store[6] }}</td>
+            <td>{{ store[7] }}</td>
+			<td><a href="/stores/{{ store[0] }}/edit">Edit</a></td>
+			<td><a href="/view-accessibility-features/{{ store[0] }}">View Accessibility Features</a></td>
+			<td><a href="/stores/{{ store[0] }}/employees">View Store Employees</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
+

@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+
+{% block title %}{{ store.store_name }} Employees{% endblock %}
+
+{% block content %}
+<h1>{{ store.store_name }} Employees</h1>
+
+{% if employees %}
+<table>
+  <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Disability</th>
+      <th>Disability Skills</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for employee in employees %}
+    <tr>
+      <td>{{ employee.employee_firstname }}</td>
+      <td>{{ employee.employee_lastname }}</td>
+      <td>{{ employee.employee_disability }}</td>
+      <td>{{ employee.employee_disability_skill }}</td>
+	  <td><a href="{{ url_for('view_employee_schedule', store_id=store.store_id, employee_id=employee.employee_id) }}">View Schedule</a></td>
+	  <td><a href="{{ url_for('edit_employee', store_id=store.store_id, employee_id=employee.employee_id) }}">Edit Employee Details</a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p>No employees found for this store.</p>
+{% endif %}
+
+<a href="{{ url_for('stores') }}">Back to Stores</a>
+
+{% endblock %}
